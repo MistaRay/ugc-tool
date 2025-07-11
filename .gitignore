@@ -1,0 +1,3 @@
+# Ignore sensitive files containing secrets
+miniprogram/pages/chatBot/chatBot.js
+project.config.json 

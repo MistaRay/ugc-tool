@@ -1,0 +1,5 @@
+<!--pages/chatBot/chatBot.wxml-->
+<view>
+  <agent-ui showBotAvatar="{{showBotAvatar}}" chatMode="{{chatMode}}" modelConfig="{{modelConfig}}">
+  </agent-ui>
+</view>

@@ -841,6 +841,11 @@
   background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
 
+/* Sleek dark blue gradient for a more refined look */
+.theme-dapper {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+}
+
 /* Add subtle background pattern */
 .ugc-header::before {
   content: '';
@@ -950,9 +955,10 @@ textarea::placeholder {
   min-width: 80rpx;
   padding: 24rpx 28rpx;
   border-radius: 18rpx;
-  background: #fff;
-  box-shadow: 0 2rpx 8rpx rgba(44, 62, 80, 0.04);
-  border: 1px solid #e3eaf2;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4rpx 16rpx rgba(44, 62, 80, 0.06);
+  border: 1px solid rgba(227, 234, 242, 0.8);
+  backdrop-filter: blur(6rpx);
   font-size: 32rpx;
   color: #2c3e50;
   word-break: break-word;
@@ -1015,6 +1021,9 @@ textarea::placeholder {
 .agent-ui, .ugc-header, .ugc-title, .ugc-desc, .ugc-card, .chat-bubble, .question_content, .footer, .function, .tool_box .function {
   /* Sleeker modern typeface */
   font-family: "Inter", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+  font-family: "Poppins", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
 }
 
 /* Remove gold border/shadow from card-like elements */

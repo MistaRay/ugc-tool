@@ -136,7 +136,8 @@ Component({
     pendingImageUrl: '', // public URL for Zhipu
     
     // Theme configuration - change this to switch themes
-    currentTheme: 'dark', // Options: 'blue', 'orange', 'green', 'dark', 'purple', 'pink', 'ocean', 'sunset', 'forest'
+    // Default to a bright ocean look instead of the previous dark mode
+    currentTheme: 'ocean', // Options: 'blue', 'orange', 'green', 'dark', 'purple', 'pink', 'ocean', 'sunset', 'forest'
     lastImageUrl: '', // Store the last used image URL
   },
   attached: async function () {
